@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Quantum Data Science  2025/26</title>		
+
+	<meta name="description" content="Quantum Computing 23/24">
+	<meta name="keywords" content="Quantum computing, semantics, logic">
+	<meta name="author" content="Luís Soares Barbosa" >
+	
+<!-- 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
+  <link href="extra/css/bootstrap-bw.min.css" rel="stylesheet" media="screen">
+  <link href="extra/css/main.css" rel="stylesheet">
+
+  <!-- see more examples in http://bootswatch.com/paper/# -->
+</head>
+
+<body>
+
+
+<div class="navbar navbar-default navbar-fixed-top"> <!-- navbar-fixed-top -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">
+<!--     AC -->
+    </a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav" id="myTab">
+      <li class="active"><a href="#">Home</a></li>
+  		<li><a href="#programa">Syllabus</a></li>
+	  	<li><a href="#material">Summaries</a></li>
+      <li><a href="#biblio">Bibliography</a></li>
+      <li><a href="#notas">News</a></li>
+	  	<li><a href="#funcionamento">Pragmatics</a></li>
+    </ul>
+  </div>
+</div>
+
+
+ 
+<div class="splash">
+	<h2 class="splash-title">Quantum Data Science 2025-26</h2>
+<!-- 	<div class="blue-rect"> 
+-->
+	<h4 class="splash-subtitle">Ciência de Dados </h4>
+  <h4 class="splash-subtitle"> Dep. Informática, Universidade do Minho</h4>
+  </div>
+
+
+<div id="myTabContent" class="container">
+<div class="bs-component">
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~
+
+
+-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Learning Outcomes</h2>
+
+<p>
+On successful completion  of the course students should be able
+
+<p>
+
+<ul>
+  <li> 
+ To master the quantum computational model.
+ <li>
+  To  design and analyse basic quantum algorithms.
+  <li>
+  To inderstand and mplement basic techniques in quantum data science.
+</ul>
+</p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~-->
+<div id="programa"></div>
+<h2>Syllabus</h2>
+
+<ul>
+<li> <strong> Quantum computation and algorithms</strong>
+<ul>
+  <li> The quantum computational model (gates, measurements, and circuits).
+  <li> Introduction to quantum algorithms. Algoritmic classes and complexity.
+  <li> Quantum algorithms based on phase amplification: Goriver's algorithm and its generalizations.
+</ul> 
+<li>
+    <strong> Quantum techniques for data science</strong>
+    <ul>
+        <li> ...
+    </ul>
+</ul>
+
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div id="material"></div>
+    <h2>Summaries (2025-25)</h2>
+
+    <h5> T Lectures</h5>
+
+  <table style="width:100%">
+        <tr>
+          <td><strong>Sep 22 (09:00 - 11:00)</strong></td>
+          <td>Introduction to Quantum Computation and the course dynamics
+            <a href="./QDS-IQC2025-Lecture1.pdf">(slides)</a>.</td>
+        </tr>
+        <tr>
+          <td><strong>Sep 29 (09:00 - 11:00)</strong></td>
+          <td>What's in a qubit? Representation and evolution of a quantum system. Single-qubit gates and the Bloch sphere
+            <a href="./QDS-IQC2025-Lecture3.pdf">(slides)</a>.</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 6 (09:00 - 11:00)</strong></td>
+          <td>Introduction to quantum algorithms. A first worked example: The Deutsch algoritm.
+            A quantum solution to the Bernstein-Vazirani problem
+            <a href="./QDS-IQC2025-Lecture4.pdf">(slides)</a>.</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 13 (09:00 - 11:00)</strong></td>
+          <td>
+            Unstructured search problems and the Grover's algorithm
+            <a href="./QDS-IQC2025-Lecture6.pdf">(slides)</a>.
+            </td>
+        </tr>     
+        <tr>
+          <td><strong>Oct 20 (09:00 - 11:00)</strong></td>
+          <td>Quantum fundamentals with pennylane: Superposition, entanglement and interference. 
+            <a href="./TP/lecture2.ipynb">(notebook from class)</a>.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Oct 27 (09:00 - 11:00)</strong></td>
+          <td>Qubits collectively: Composition and entanglement. Quantum teleportation.
+            <a href="./QDS-IQC2025-Lecture5.pdf">(slides)</a>.
+          </td>
+        </tr>
+    </table>
+
+
+    <h5> TP Lectures </h5>
+    <table style="width:100%">
+        <tr>
+          <td><strong>Sep 25 (16:00 - 18:00)</strong></td>
+          <td> Superposition and quantum interference. Review of the mathematical background for quantum computation
+            <a href="./QDS-IQC2025-Lecture2.pdf">(slides)</a>.</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 2 (16:00 - 18:00)</strong></td>
+          <td> (to be re-scheduled) </td>
+        </tr>
+        <tr>
+          <td><strong>Oct 9 (16:00 - 18:00)</strong></td>
+          <td> Exercises (1) <a href="./QDS-Ex1.pdf">(pdf)</a> </td>
+        </tr>
+        <tr>
+          <td><strong>Oct 16 (16:00 - 18:00)</strong></td>
+          <td>Quantum computing introduction with pennylane <a href="./TP/intro_slides.pdf">(slides)</a> <a href="./TP/lecture1.ipynb">(notebook from class).</a></td>
+        </tr>        
+        <tr>
+          <td><strong>Oct 23 (16:00 - 18:00)</strong></td>
+          <td>Implemeting Deutsch algorithm with pennylane <a href="./TP/Archive.zip">(notebook from class)</a></td>
+        </tr>
+        <tr>
+          <td><strong>Oct 29 (16:00 - 18:00)</strong></td>
+          <td> Exercises (2) <a href="./QDS-Ex2.pdf">(pdf)</a></td>
+        </tr>
+        <tr>
+          <td><strong>Nov 20 (16:00 - 18:00)</strong></td>
+          <td> Grover's algorithm with pennylane <a href="TP/tp4-grover/Archive.zip">(notebook)</a> <a href="TP/tp4-grover/lecture-4-grover.ipynb">(notebook from class)</a> <a href="TP/tp4-grover/lecture-4-grover-solution.ipynb">(solution to remaining exercises)</a> <a href="TP/tp4-grover/ Grover_notes.pdf">(Grover written notes)</a></td>
+        </tr>
+        <tr>
+          <td><strong>Dec 4 (16:00 - 18:00)</strong></td>
+          <td> Quantum Data Encoding <a href="TP/tp5-Data encoding/data_encoding_solution.ipynb">(notebook from class)</a> <a href="TP/tp5-Data encoding/data_encoding_notes.pdf">(data encoding written notes)</a>  </td>
+        </tr>
+       </table>  
+    <!--~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div id="biblio"></div>
+    <h2>Bibliography</h2>
+
+
+
+
+    <h5> Quantum Computation and Algorithms </h5>
+    <ul>
+
+        <li>
+            M. A. Nielsen and I. L. Chuang. <strong>Quantum Computation and Quantum Information</strong> (10th
+            Anniversary Edition). Cambridge University Press, 2010
+        <li>
+            E. Rieffel and W. Polak. <strong>Quantum Computing: A Gentle Introduction</strong>. MIT Press, 2011.
+        <li>
+            N. S. Yanofsky and M. A. Mannucci. <strong>Quantum Computing for Computer Scientists</strong>. Cambridge
+            University Press, 2008.
+    </ul>
+
+
+    <h5> Quantum Computation for Data Science </h5>
+    <ul>
+
+        <li>
+            ...
+    </ul>
+
+    <h5> Complementary readings </h5>
+    <ul>
+        <li>
+            S. Aaronson. <strong>Quantum Computing since Democritus</strong>. Cambridge
+            University Press, 2013.
+        </li>
+	<li>
+	    J. Preskill <strong>Quantum Computing in the NISQ era and beyond</strong>. Quantum 2, 79, 2018.
+	</li>  
+    </ul>
+
+    <h5> Links </h5>
+    <ul>
+        <li><a href="https://pennylane.ai/">Quantum Programming in PennyLane</a></li>
+        <li><a href="https://inl.int/galvao-research-group/">Quantum and Linear Optical Computation Group at INL</a></li>
+        <li><a href="https://www.inesctec.pt/en/centres/haslab">HASLab - High Assurance Software Lab at INESCT TEC</a></li>
+    </ul>
+
+    <!--
+    
+   -->
+    <div id="funcionamento"></div>
+    <h2>Pragmatics</h2>
+
+
+    <h5><a name="Docentes"></a> Lecturers </h5>
+    <ul>
+        <li><a href="https://www.di.uminho.pt/~jno/sitedi/nm_1063.html">Luís Paulo Santos</a>
+        <li><a href="http://www.di.uminho.pt/~lsb">Luís Soares Barbosa</a>
+        <li><a href="https://www.inesctec.pt/en/people/andre-manuel-sequeira#intro">André Sequeira</a>
+    </ul>
+
+    <h5><a name="Avaliação"></a> Assessment </h5>
+
+    <ul>
+           <li> Individual assignment, 
+            with written report and individual, oral defense (50%) 
+            <P> Oral: <b>5-7 January 2026</b>
+          </li>
+
+        <li>
+            Individual test (50%)
+             <P> Test: <b>11 December 2025</b>
+        </li>
+          
+    </ul>
+
+
+    <h5><a name="Contact"></a> Contact </h5>
+
+    <ul>
+        <li> Appointments (please send an email the day before)
+          <p> - Luis: Wed, 18:00-20:00 and Fri, 18:00-20:00; Luis Paulo: ...; André: send email to arrange.
+        <li> Email: psantos at di dot uminho dot pt (Luis Paulo), lsb at di dot uminho dot pt (Luis) and 
+             andre.m.sequeira at inesctec dot pt (André)
+        <li> Last update: 2025.10.24
+    </ul>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~-->
+</div> <!-- bs-component -->
+</div> <!-- container -->
+
+<!-- FOOTERS -->
+
+<div class="panel-footer" id="wrapper-footer">
+<div id="footer">
+2025.10.24
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="extra/js/bootstrap.min.js"></script>
+<!-- <script src="../assets/js/bootswatch.js"></script> -->
+
+<script>
+
+  $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+  });
+  
+  // post-process the tweeter feed.
+  (function ($) {
+    window.setTimeout(function(){
+      $(".twitter-timeline").contents().find(".e-entry-title").attr("style", "color: #666666; font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;");
+    }, 1000);
+
+  })(jQuery);
+
+</script>
+
+</body>
+</html>
+
